@@ -3,12 +3,14 @@
 * {
     box-sizing: border-box;
     margin: 0;
+    padding: 0;
     word-wrap: break-word !important;
 }
 
 body {
     background-color: #e7e7e7;
     font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
 }
 
 #container {
@@ -23,4 +25,32 @@ h1 {
     font-size: 96px;
     text-align: center;
     padding-top: 50px;
+    padding-bottom: 30px;;
 }
+
+nav {
+    background-color: #0f131f;
+    min-height: 50px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0 30px;
+    line-height: 60px;
+    display: inline-block;
+}
+
+nav ul a:hover {
+    background-color: #5f5c5c;
+}
+
