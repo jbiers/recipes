@@ -117,18 +117,63 @@ h3 {
     padding: 30px;
 }
 
-.ingredients {
+.ingredients, .directions, .nutrition {
     width: 90%;
     margin: 0 auto;
 }
 
-.ingredients-list {
-    padding: 0;
-    line-height: 26px;
-    font-size: 16px;
+.nutrition {
+    padding-bottom: 20px;
+}
+
+.ingredients-list, .directions-list {
     list-style-position: inside;
 }
 
-.ingredients-list li {
+.ingredients-list, .directions-list , .nutrition-paragraph {
+    padding: 0;
+    line-height: 26px;
+    font-size: 16px;
+}
+
+.ingredients-list li, .directions-list li, .nutrition-paragraph {
     padding: 10px 0;
+}
+
+.nutrition-word {
+    color: #0f131f;
+    font-weight: 600;
+}
+
+footer {
+    background-color: #0f131f;
+    color: #fff;
+    border-radius: 0px 0px 10px 10px;
+    text-align: center;
+    font-size: 16px;
+}
+
+footer p {
+    padding: 20px 0;
+}
+
+footer a {
+    text-decoration: none;
+    color: #fff;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.icon {
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    margin: 0 auto;
+    object-fit: contain;
+}
+
+.icon-link {
+    padding: 0px 20px;
 }
