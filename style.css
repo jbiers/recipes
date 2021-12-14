@@ -69,11 +69,12 @@ nav ul ul {
     background-color: #0f131f;
     position: absolute;
     left: 160px;
-    bottom: 0px;
+    top: 0px;
 }
 
 nav ul ul li {
     display: block;
+    min-width: 250px;
 }
 
 nav ul ul li a {
