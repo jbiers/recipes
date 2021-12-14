@@ -178,3 +178,47 @@ footer a:hover {
 .icon-link {
     padding: 0px 20px;
 }
+
+.flex-container {
+    margin: 0 auto;
+    width: 90%;
+    display: flex;
+    padding: 30px 0px 100px 0px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 100px;
+    column-gap: 50px;
+}
+
+.flex-item {
+    border-radius: 10px 10px 0 0;
+    width: 350px;
+    height: 250px;
+}
+
+.flex-item:hover {
+    box-shadow: 10px 10px 8px #888888;
+}
+
+.flex-item a {
+    text-decoration: none;
+    margin: 0 auto;
+}
+
+.flex-item img {
+    border-radius: 10px 10px 0 0;
+    width: 350px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+.flex-item h3 {
+    background-color: #0f131f;
+    color: #fff;
+    width: 350px;
+    height: 50px;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+
